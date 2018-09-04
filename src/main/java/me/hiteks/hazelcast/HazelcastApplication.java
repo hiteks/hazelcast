@@ -1,4 +1,4 @@
-package me.hiteks.study.hazelcast;
+package me.hiteks.hazelcast;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
