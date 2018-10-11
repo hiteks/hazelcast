@@ -26,7 +26,13 @@ repositories {
 
 dependencies {
     compile('org.springframework.boot:spring-boot-starter-cache')
+    compile('org.springframework.boot:spring-boot-starter-web')
+    compile('com.hazelcast:hazelcast')
+    compile('com.hazelcast:hazelcast-client')
+
     runtime('org.springframework.boot:spring-boot-devtools')
+
     compileOnly('org.projectlombok:lombok')
+
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
